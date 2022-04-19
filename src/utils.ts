@@ -5,7 +5,7 @@ export const loadSdk = () => {
     const js: HTMLScriptElement = document.createElement("script");
 
     js.id = "kakao-sdk";
-    js.src = "//developers.kakao.com/sdk/js/kakao.min.js";
+    js.src = "https://developers.kakao.com/sdk/js/kakao.min.js";
     js.onload = resolve;
 
     document.body.append(js);
